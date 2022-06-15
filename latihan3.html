@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Latihan Soal-3</title>
+
+		<script>
+		function input(){
+			var nama = prompt("Masukan nama:", "");
+			var nim = prompt("Masukan nim:", "");
+			var alpro = prompt("Masukan Nilai Alpro (3sks):", "");
+			var disweb = prompt("Masukan Nilai Disweb (3sks):", "");
+			var arskom = prompt("Masukan Nilai Arskom (3sks):", "");
+			var metnum = prompt("Masukan Nilai Metode Numerik (3sks):", "");
+			var kwu = prompt("Masukan Nilai Kewirausahaan (2sks):", "");
+			var datmin = prompt("Masukan Nilai Data Mining (2sks):", "");
+			var statistik = prompt("Masukan Nilai Statistika (3sks):", "");
+			var ml = prompt("Masukan Nilai Machine Learning (3sks):", "");
+			document.write("<p>Nama mahasiswa "+ nama + " dengan NIM " + nim + " memperoleh IPK " + "</p>");
+			}
+			
+			function latar(){
+			var warna = prompt("Enter a color:", "");
+			if (warna == "red") document.body.style.backgroundColor = "red";
+			else if (warna == "yellow") document.body.style.backgroundColor = "yellow";
+			else if (warna == "green") document.body.style.backgroundColor = "green";
+			else if (warna == "blue") document.body.style.backgroundColor = "blue";
+			}	
+			
+			function undo(){
+				document.body.style.backgroundColor = "transparent";
+			}
+			</script>
+		</head>	
+	<body>
+			<button onclick="input()">Input Data</button>
+			<button onclick="latar()"type="submit">Change Color</button>
+			<button onclick="undo()"type="reset">Undo Color</button>
+</body>
+</html>

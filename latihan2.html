@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Latihan Soal-2</title>
+
+		<script>
+		
+			var barang_1 = prompt("Inputkan Nama Barang ke-1", "");
+			var harga_1 = prompt("Harga Barang ke-1", "");
+			var jumlah_1 = prompt("Jumlah Barang ke-1", "");
+			
+			var barang_2 = prompt("Inputkan Nama Barang ke-2", "");
+			var harga_2 = prompt("Harga Barang ke-2", "");
+			var jumlah_2 = prompt("Jumlah Barang ke-2", "");
+			
+			var sub_total1 = harga_1 * jumlah_1;
+			var sub_total2 = harga_2 * jumlah_2;
+			var total = sub_total1 + sub_total2;
+			document.write("<p>" + barang_1 + harga_1 + jumlah_1 + sub_total1 + "</p>");
+			document.write("<p>" + barang_2 + harga_2 + jumlah_2 + sub_total2 + "</p>");
+			document.write("<p> TOTAL" + total);
+			</script>
+		</head>	
+	<body>
+		<table border='1'>
+		<tr><td>Nama</td><td>Harga</td><td>Jumlah</td><td>Sub Total</td></tr>
+
+</html>
